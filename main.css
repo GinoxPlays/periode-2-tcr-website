@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&family=Bebas+Neue&display=swap');
 
 *{
     margin: 0;
@@ -5,22 +6,18 @@
 }
 
 .img{
-    height: 50px;
-    width: 150px;
+    height: 90px;
     margin-left: 20px;
-    margin-right: 100px;
-    background-color: aliceblue;
-    padding: 10px;
-    
+    background-color: white;
 }
 
 a{
     text-decoration: none;
-    padding: 10px;
+    padding: 6px;
     color: #fff;
     font-size: 15px;    
     font-weight: lighter;
-    margin-left: 10px;
+    margin-left: 40px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
@@ -28,7 +25,7 @@ a{
 }
 
 nav{
-    padding: 10px;  
+     
     position: sticky;
     top: 0px;
     background-color: rgb(0,100,69);
@@ -37,17 +34,14 @@ nav{
     display: flex;
     align-items: center;
     
+    
     }
 
     body{
         background-color: rgb(0,70,48);
         
     }
-    
-    .banner-card{
 
-
-    }
 
     .banner-card img{
     width: 800px;
@@ -58,16 +52,37 @@ nav{
     
 
     }
-    
+
+    h1{
+        color: #fff;
+        font-family: 'Bebas Neue', sans-serif;    
+        font-size: 90px;
+        
+
+
+    }
+    h3{
+        font-family: 'Barlow', sans-serif;
+        color: #fff;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 600px;
+        font-weight: normal;
+    }
+
+    p{
+        color: #fff;
+        font-family: 'Bebas Neue', sans-serif;    
+        font-size: 30px;
+
+    }
+
     .banner-text{
     position: absolute;
     top: 25%;
-    color: #fff;
     padding: 20px;
-    font-family: 'Barlow', sans-serif;
-    font-size: 20px;
     margin-left:100px ;
-    margin-top:40px ;
+    margin-top:20px ;
 
     }
 
@@ -83,28 +98,58 @@ nav{
     .quiz{
     height: 100vh;
     width: 100%;
-    margin-left:100px ;
-    margin-top: 150px;
+    font-size: 40px;
+    padding: 100px;
+    margin-top: 50px;
+    padding-top: 160px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+  
+
+    }
+
+    .aanmelden{
+        background-color: rgb(219,251,74);
+        color: rgb(0,70,48);
+        padding: 15px;
+        border-radius: 7px;
+        margin-left: 360px;
+    }
+    .aanmelden:hover{
+        color: rgb(0,70,48);
+        transition: 0.3;
+
+    }
+    .chatbot{
+    height: 100vh;
+    width: 100%;
+    font-size: 40px;
+    padding: 100px;
+    margin-top: 50px;
+    padding-top: 160px;
     color: white;
     font-family: 'Barlow', sans-serif;
 
     }
 
     .talentree{
-    height: 100vh;
-    width: 100%;
-    margin-left:100px ;
-    margin-top: 150px;
-    color: white;
-    font-family: 'Barlow', sans-serif;
-
+        height: 100vh;
+        width: 100%;
+        font-size: 40px;
+        padding: 100px;
+        margin-top: 50px;
+        padding-top: 160px;
+        color: white;
+        font-family: 'Barlow', sans-serif;
     }
-    
-    .quiz{
+
+    .opendag{
     height: 100vh;
     width: 100%;
-    margin-left:100px ;
-    margin-top: 150px;
+    font-size: 40px;
+    padding: 100px;
+    margin-top: 50px;
+    padding-top: 160px;
     color: white;
     font-family: 'Barlow', sans-serif;
 
@@ -113,15 +158,34 @@ nav{
     .contact{
     height: 100vh;
     width: 100%;
-    margin-left:100px ;
-    margin-top: 150px;
+    padding-top: 160px;
+    font-size: 40px;
+    padding: 100px;
+    margin-top: 50px;
     color: white;
     font-family: 'Barlow', sans-serif;
 
     }
 
+    .locaties{
+  
+    height: 100vh;
+    width: 100%;
+    font-size: 40px;
+    padding: 100px;
+    margin-top: 50px;
+    padding-top: 160px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+
+
+    }
+    
     html{
         scroll-behavior: smooth;
     }
 
-   
+   a:hover{
+    color: rgb(219,251,74);
+    transition: 0.3;
+   }
