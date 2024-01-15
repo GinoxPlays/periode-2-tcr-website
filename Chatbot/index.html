@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <!-- Google fonts for the icons (Eias)-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Chat Bot Code (Eias)-->
+    <button class="chatbot-toggler">
+      <span class="material-symbols-outlined">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+      <header>
+        <h2>Chatbot</h2>
+        <span class="close-btn material-symbols-outlined">close</span>
+      </header>
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined">smart_toy</span>
+          <p>
+            Hi there 👋 <br />
+            How can i help you today?
+          </p>
+        </li>
+      </ul>
+      <div class="chat-input">
+        <textarea placeholder="Enter a message..." required></textarea>
+        <span id="send-btn" class="material-symbols-outlined">send</span>
+      </div>
+    </div>
+    <!-- Chat Bot code ended (Eias)-->
+    <nav>
+    <img class="img" src="Logo-TCR.webp" />
+    <a href="index.html">Home</a>
+    <a href="opendag.html">Opendag</a>
+    <a href="#quiz">Quiz</a>
+    <a href="#chatbot">Chatbot</a>
+    <a href="#talentree">Talentree</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="banner-card">
+    <img src="tcr 2.jpeg" />
+    <div class="banner-text">
+      <h4>OPENDAG TECHNIEK COLLEGE ROTTERDAM</h4>
+      <p>MAAK HET MET TECHNIEK</p>
+    </div>
+  </div>
+
+  <div class="contact" id="contact">
+    <form>
+      <h1>Contact</h1>
+      <input type="text" id="firstName" placeholder="First Name" required />
+      <input type="text" id="lastName" placeholder="Last Name" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="text" id="mobile" placeholder="Mobile" required />
+      <h4>Type youre message Here...</h4>
+      <textarea required></textarea>
+      <input type="submit" id="button" value="Send" />
+    </form>
+  </div>
+  </body>
+</html>
